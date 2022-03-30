@@ -1,0 +1,28 @@
+#start-screen{
+  position: absolute;
+	width: 288px;
+    height: 512px;
+    border: 3px solid #73AD21;	
+}
+.container{
+	background-image: url(../images/bg.png);
+	width: 288px;
+    height: 512px;
+	background-size: cover;
+	position: relative;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	padding: 5px;
+}
+#start-screen h2{
+position: relative;
+text-align: center;
+font-size: 50px;
+
+}
+#start-screen button{
+display: block;
+margin: 50px auto;
+font-size: 25px;
+}
